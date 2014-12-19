@@ -9,3 +9,4 @@ node_modules/
 *.sublime-workspace
 
 public/stylesheets/app.css
+js/app.js
