@@ -1,0 +1,19 @@
+!!! 5
+%html
+  %head
+
+    %meta{ charset: 'utf-8' }
+    %meta{ name: 'viewport', content: 'width=device-width, initial-scale=1.0'}
+    %title= 'Backbone Test'
+    %link{ rel: 'stylesheet', href: '/stylesheets/app.css' }
+    = js :modernizr
+
+  %body
+    .row
+      .large-12.columns
+
+        = yield
+
+    = js :libs
+    = js :application
+

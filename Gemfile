@@ -1,4 +1,12 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "sass", "~> 3.4.0"
-gem "compass", "~> 1.0"
+gem 'sinatra'
+
+gem 'sinatra-contrib'
+
+gem 'sinatra-assetpack'
+
+gem 'haml'
+
+gem 'sass', '~> 3.3.0'
+gem 'compass', '~> 1.0'
