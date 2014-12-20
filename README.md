@@ -44,3 +44,8 @@ To upgrade gems and other ruby goodies:
 ```bash
 bundle update
 ```
+
+## TODO
+
+Clean up the directory structure
+Set up app.js to compile into the public folder
