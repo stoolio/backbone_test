@@ -1,5 +1,4 @@
 require('./foundation');
-var ListView = require('./ListView');
+var ListView = require('./views/list');
 
 var listView = new ListView();
-
